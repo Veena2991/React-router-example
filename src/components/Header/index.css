@@ -1,0 +1,47 @@
+/* Write your CSS code here */
+
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-header {
+    justify-content: space-between;
+  }
+}
+
+.website-logo-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  height: 30px;
+  margin-right: 8px;
+}
+
+.logo-label {
+  color: #12022f;
+  font-size: 22px;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  color: #12022f;
+  font-size: 20px;
+  margin-right: 20px;
+
+  font-weight: bold;
+}
